@@ -142,7 +142,7 @@
   </PropertyGroup>
   <PropertyGroup Label="OutputInfo">
     <OutDir>$([System.IO.Path]::GetFullPath('.\$(Configuration)_$(Platform)\'))</OutDir>
-    <IntDir>$([System.IO.Path]::GetFullPath('.\ObjectFiles\SPClient\$(Configuration)_$(Platform)\'))</IntDir>
+    <IntDir>$([System.IO.Path]::GetFullPath('.\ObjectFiles\$(Configuration)_$(Platform)\'))</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <LinkIncremental>true</LinkIncremental>
